@@ -1,4 +1,4 @@
-﻿body { font-family: 'Poppins', sans-serif; font-size: 18px; }
+body { font-family: 'Poppins', sans-serif; font-size: 18px; }
 
 .hero {
 background-image: url(background.jpg);
@@ -101,7 +101,20 @@ hr{
 }
 
 .price-box{
-    padding: 20px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); margin-bottom: 20px; text-align: center; width: auto;  display: flex; flex-direction: column;    
+    padding: 20px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    background-color:#ffffff; margin-bottom: 20px; text-align: center; width: auto;  display: flex; flex-direction: column;    
 }
 
 .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; align-items: stretch; }
+
+.prijelaz {
+    transition: transform 0.3s ease; 
+}
+
+.prijelaz:hover {
+    transform: scale(1.1); 
+}
+
+.pozadina{
+    background-color: #E8F8F2; 
+    }   
