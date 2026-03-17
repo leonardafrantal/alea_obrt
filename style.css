@@ -91,9 +91,8 @@ background-image: url(background.jpg);
 }
 
 .bg-boja{
-    background-color: hwb(168 76% 6%)
+    background-color:hsl(167, 47%, 96%)
 }
-
 
 hr{
     background-color: lab(38.74% -23.5 38.67);
